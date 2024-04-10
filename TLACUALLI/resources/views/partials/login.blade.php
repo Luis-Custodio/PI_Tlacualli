@@ -27,9 +27,11 @@
       </div>
       <div class="modal-footer">
         @include('partials.nuevo_usuario')
-        <button type="submit" class="btn btn-success" name="iniciar_sesion" id="iniciar_sesion">Iniciar sesión</button>
-        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
+
+        <button type="submit" class="btn btn-outline-success" name="iniciar_sesion" id="iniciar_sesion">Iniciar sesión</button>
+        <button type="button" class="btn btn-outline-secondary" data-bs-dismiss="modal">Cancelar</button>
         </div>
+
       
     </div>
   </div>
