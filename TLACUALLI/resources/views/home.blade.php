@@ -2,7 +2,6 @@
 @section('titulo','Inicio')
 @section('contenido')
 
-
 {{-- @include('partials.home.carrousel')  --}} 
 {{-- Carrousel o Sección con imagen ↓↓  --}}
 <section class="position-relative py-10 py-sm-12" style="background-image:url(https://sustentavel.com.br/wp-content/uploads/2018/07/composto.jpg); background-position: center left; background-size: cover;">
@@ -28,6 +27,7 @@
     </div>
 
     @include('partials.home.carrouselCard')
+
     
     <div class="row mb-4 mt-5">
         <div class="col-12 text-center">

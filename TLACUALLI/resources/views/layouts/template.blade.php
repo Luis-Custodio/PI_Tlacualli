@@ -18,7 +18,11 @@
     <title>@yield('titulo')</title>
 
     {{-- Incluir todos los css adicionales que se lleguen a ocupar --}}
-    {{-- @vite('resources/css/navbar.css') --}}
+
+    @vite('resources/css/navbar.css')
+    @vite('resources/css/images.css')
+    @vite('resources/css/carrusel.css')
+    
 </head>
 @include('partials.navbar')
 @include('partials.alertas')    
