@@ -1,0 +1,18 @@
+.carousel-item img {
+    max-width: 100%;
+    height: 250px;
+    width: 300px;
+    object-fit: contain;
+}
+
+.overimage {
+    position: absolute;
+    top: 20%;
+    left: 0;
+    width: 100%; /* Set width to cover the entire image */
+    height: 100%; /* Set height to cover the entire image */
+    background-image: url('{{ asset("images/overlay.png") }}'); /* Use asset helper to generate correct URL */
+    background-size: fill;
+}
+
+

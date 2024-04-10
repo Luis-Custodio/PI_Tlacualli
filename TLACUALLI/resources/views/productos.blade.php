@@ -31,7 +31,7 @@
             <div class="row p-2">
                 @for ($j = 0; $j < 4; $j++)
                     <div class="col-md-3 p-2">
-                        @include('partials.productos.card_producto')
+                        @include('partials.talleres.card_taller')
                     </div>
                 @endfor
             </div>
