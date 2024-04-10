@@ -2,7 +2,6 @@
 @section('titulo','Inicio')
 @section('contenido')
 <div class="mt-3">
-    @include('partials.carrusel')
 </div>
 <div class="container mt-3 bg-warning">
     
