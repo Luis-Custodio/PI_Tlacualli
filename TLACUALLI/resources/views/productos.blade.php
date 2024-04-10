@@ -23,7 +23,7 @@
                 <div class="col-5">
                 </div>
                 <div class="col-2 justify-content-end">
-                    <button type="button" class="btn btn-outline-success" data-bs-toggle="modal" data-bs-target="#registrar_producto">Agregar Producto</button>
+                <button type="button" class="btn btn-outline-success" data-bs-toggle="modal" data-bs-target="#registrar_producto"> Agregar producto</button>
                 </div>
             </div>
             
