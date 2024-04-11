@@ -31,7 +31,6 @@
     @yield('contenido') 
 </body>
 <footer>
-    {{-- La página tendra algun footer? --}}
-    {{-- @include('partials.footer') --}}
+    @include('partials.footer')
 </footer>
 </html>

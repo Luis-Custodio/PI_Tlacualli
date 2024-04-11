@@ -3,13 +3,13 @@
 @section('contenido')
 
 <div class="row mt-5">
-    <div class="col-1">
+    <div class="col-2">
         <div class="sticky-top">
-            @include('partials.publicaciones.filtros')
+            @include('partials.productos.filtros')
         </div>
     </div>
-    <div class="col-9">  
-        <div class="container">
+    <div class="col-8">  
+        
     
             <h1 class="text-center">Productos</h1>
         
@@ -31,7 +31,7 @@
             <div class="row p-2">
                 @for ($j = 0; $j < 4; $j++)
                     <div class="col-md-3 p-2">
-                        @include('partials.talleres.card_taller')
+                        @include('partials.productos.card_producto')
                     </div>
                 @endfor
             </div>
@@ -58,7 +58,6 @@
                     </nav>
                 </div>
             </div>
-        </div>
     </div>
     <div class="col-2">
         <div class="sticky-top pe-3">
@@ -74,6 +73,6 @@
 
 
 
-@include('partials.productos.nuevo_producto')
+@include('partials.productos.registrar_producto')
 @include('partials.productos.script_productos')
 @endsection

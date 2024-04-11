@@ -101,5 +101,5 @@
 </div>
 
 
-@include('partials.publicaciones.nueva_publicacion')
+@include('partials.publicaciones.registrar_publicacion')
 @endsection
