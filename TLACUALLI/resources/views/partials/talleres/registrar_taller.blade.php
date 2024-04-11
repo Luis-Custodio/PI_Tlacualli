@@ -1,8 +1,3 @@
-<!-- Button trigger modal -->
-<!--<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
-  Launch demo modal
-</button> -->
-
 
 <!-- INICIO MODAL -->
 <div class="modal fade" id="registrar_taller" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
@@ -45,7 +40,7 @@
       
       <!-- INICIO FOOTER MODAL -->
       <div class="modal-footer">
-      <button type="button" class="btn btn-primary">Aceptar</button>
+      <button type="button" class="btn btn-success">Aceptar</button>
         <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
        </div>
       <!-- FIN FOOTER MODAL -->
@@ -53,4 +48,5 @@
 
     </div>
   </div>
+</div>
 </div>

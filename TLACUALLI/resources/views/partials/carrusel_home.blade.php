@@ -1,6 +1,17 @@
 <div class="contentItemsCarrusel">
       <div class="itemCarrusel" id="itemCarrusel-1">
-          <span><img src="https://ggirs.munipuno.gob.pe/sites/default/files/Slider-2021/bannerpunohallpaman.jpg" alt="..."></span>
+        <section class="position-relative py-10 py-sm-12" style="background-image:url(https://sustentavel.com.br/wp-content/uploads/2018/07/composto.jpg); background-position: center left; background-size: cover; height:100%;">
+          <div class="bg-overlay bg-dark opacity-2"></div>
+          <div class="container z-index-9 position-relative">
+              <div class="row">
+                  <div class="col-xl-8 m-auto text-center py-xl-8">
+                      <h1 class="display-4 text-white mb-3 mt-5">Únete a nuestra comunidad TLACUALLI</h1>
+                      <h5 class="text-white mb-3">Somos una comunidad que permite la vinculación de administraciones restauranteras con agrupaciones encargadas del tratamiento de residuos orgánicos para la producción de composta y productos derivados.</h5>
+                      <a href="#" class="btn btn-lg btn-success mb-0 mb-5">Descubre Más</a>
+                  </div>
+              </div> 
+          </div>
+      </section>
         <div class="flechaCarrusel">
           <a href="#itemCarrusel-5">
             <i class="bi bi-caret-left"></i>
@@ -22,7 +33,7 @@
         </div>
       </div>
       <div class="itemCarrusel" id="itemCarrusel-3">
-          <span><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSv_oLs8WZoR3ZEhAP3UV4qiZpUR48bWK23c0Mn1vvAMw&s" alt="..."></span>
+          <span><img src="https://www.ull.es/portal/agenda/wp-content/uploads/sites/12/2022/09/Campustajes_Banner-eventos-nuevo.png" alt="..."></span>
         <div class="flechaCarrusel">
           <a href="#itemCarrusel-2">
             <i class="bi bi-caret-left"></i>

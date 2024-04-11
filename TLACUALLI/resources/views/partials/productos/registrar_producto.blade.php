@@ -51,7 +51,7 @@
       
       <!-- INICIO FOOTER MODAL -->
       <div class="modal-footer">
-      <button type="button" class="btn btn-primary">Aceptar</button>
+      <button type="button" class="btn btn-success">Aceptar</button>
         <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
        </div>
       <!-- FIN FOOTER MODAL -->
@@ -59,4 +59,5 @@
 
     </div>
   </div>
+</div>
 </div>

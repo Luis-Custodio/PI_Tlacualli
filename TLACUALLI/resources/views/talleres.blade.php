@@ -3,13 +3,12 @@
 @section('contenido')
 
 <div class="row mt-5">
-    <div class="col-1">
+    <div class="col-2">
         <div class="sticky-top">
             @include('partials.talleres.filtros')
         </div>
     </div>
-    <div class="col-9">  
-        <div class="container">
+    <div class="col-8">  
     
             <h1 class="text-center">Talleres</h1>
         
@@ -23,7 +22,7 @@
                 <div class="col-5">
                 </div>
                 <div class="col-2 justify-content-end">
-                    <button type="button" class="btn btn-outline-success" data-bs-toggle="modal" data-bs-target="#registrar_producto">Agregar Taller</button>
+                <button type="button" class="btn btn-outline-success" data-bs-toggle="modal" data-bs-target="#registrar_taller">Agregar taller</button> 
                 </div>
             </div>
             
@@ -58,7 +57,6 @@
                     </nav>
                 </div>
             </div>
-        </div>
     </div>
     <div class="col-2">
         <div class="sticky-top pe-3">
@@ -74,5 +72,5 @@
 
 
 
-@include('partials.talleres.nuevo_taller')
+@include('partials.talleres.registrar_taller')
 @endsection

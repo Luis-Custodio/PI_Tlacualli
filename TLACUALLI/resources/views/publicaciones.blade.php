@@ -49,7 +49,7 @@
                         <div class="col-5">
                         </div>
                         <div class="col-2 justify-content-end">
-                            <button type="button" class="btn btn-outline-success" data-bs-toggle="modal" data-bs-target="#registrar_producto">Crear Publicacion</button>
+                        <button type="button" class="btn btn-outline-success" data-bs-toggle="modal" data-bs-target="#registrar_publicacion"> Registrar publicación</button>
                         </div>
                     </div>
                     
@@ -101,5 +101,5 @@
 </div>
 
 
-@include('partials.publicaciones.nueva_publicacion')
+@include('partials.publicaciones.registrar_publicacion')
 @endsection
