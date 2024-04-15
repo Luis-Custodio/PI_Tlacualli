@@ -132,10 +132,20 @@
                         </h3>
                         <s><span class="text-muted line-through me-3">490MX$</span></s>
                     </div>
-                    <div class="col-lg-4 col-md-5 col-6 d-grid">
+                    
+                    <div class="col-lg-3 col-md-3 col-4 d-grid">
+    <a href="/maps" style="text-decoration: none;">
+        <button type="button" class="btn btn-outline-success">
+            <i class=""></i> Ver ubicación
+        </button>
+    </a>
+</div>
+                    <div class="col-lg-4 col-md-3 col-4 d-grid">
                         <button type="button" class="btn btn-outline-success"  onclick="showSweetAlert()">
                             <i class="bi bi-cart-check"></i> Agregar al carrito
                         </button>
+                  
+                  
                     </div>
                 </div>
             </div>
