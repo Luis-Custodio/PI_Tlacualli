@@ -39,7 +39,6 @@
 </div>
 </div>
 </div>
-
 </div>
 
 
@@ -61,26 +60,13 @@
         </div>
         <div class="row">
             <div class="col-lg-6 mt-3">
+                <h2>Ubicación</h2>
+                    <br>    
                 <div class="container d-flex">
-                    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel" style="max-width: 600px;">
-                        <div class="carousel-inner">
-                            <div class="carousel-item active">
-                                <img src="https://cdn.leonardo.ai/users/d9c8db72-5297-431d-83c1-8b412c5c9c36/generations/ad6626a6-9586-4f22-b744-12e08fb93b50/Default_Generate_images_related_to_composting_in_realistic_4k_2.jpg" class="d-block mx-auto" alt="Imagen1" style="max-width: 100%;" width="450px">
-                            </div>
-                            <div class="carousel-item">
-                                <img src="https://cdn.leonardo.ai/users/d9c8db72-5297-431d-83c1-8b412c5c9c36/generations/ad6626a6-9586-4f22-b744-12e08fb93b50/Default_Generate_images_related_to_composting_in_realistic_4k_3.jpg" class="d-block mx-auto" alt="Imagen2" style="max-width: 100%;" width="450px">
-                            </div>
-                        </div>
-                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                            <span class="visually-hidden">Previous</span>
-                        </button>
-                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                            <span class="visually-hidden">Next</span>
-                        </button>
-                    </div>
-                </div>                            
+                    
+                    <div id="map" style="width: 100%; height: 400px;"></div>   
+                </div>  
+                                         
             </div>
 
             <div class="col-lg-6">
@@ -132,10 +118,13 @@
                         </h3>
                         <s><span class="text-muted line-through me-3">490MX$</span></s>
                     </div>
-                    <div class="col-lg-4 col-md-5 col-6 d-grid">
-                        <button type="button" class="btn btn-outline-success"  onclick="showSweetAlert()">
+                    
+                    <div class="col-lg-4 col-md-3 col-4 d-grid">
+                        <button type="button" class="btn btn-outline-success"  onclick="showSweetAlert_Taller()">
                             <i class="bi bi-cart-check"></i> Agregar al carrito
                         </button>
+                        
+                  
                     </div>
                 </div>
             </div>
@@ -144,3 +133,44 @@
 </div>
 </div>
 </div>
+<!-- Script para inicializar el mapa -->
+<script>
+    function initMap() {
+        var latitud = 20.547141; // Latitud de ejemplo
+        var longitud = -100.274468; // Longitud de ejemplo
+        var zoom = 15; // Nivel de zoom
+
+        var mapOptions = {
+            center: {lat: latitud, lng: longitud},
+            zoom: zoom
+        };
+
+        // Crear mapa
+        var map = new google.maps.Map(document.getElementById('map'), mapOptions);
+
+        // Crear marcador
+        var marker = new google.maps.Marker({
+            position: {lat: latitud, lng: longitud},
+            map: map,
+            title: 'Ubicación específica',
+            icon: 'http://maps.google.com/mapfiles/ms/icons/red-dot.png' // Icono del marcador
+        });
+    }
+</script>
+
+
+<!-- Llamar a la función initMap cuando el API de Google Maps esté cargado -->
+<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyALHaUJgSC86kmMnI1vjUIiEc33-DbxvZY&callback=initMap"></script>
+
+{{-- Script para el SweetAlert de AGREGAR PRODUCTO --}}
+<script>
+    function showSweetAlert_Taller() {
+        Swal.fire({
+            position: "center",
+            icon: "success",
+            title: "Taller Agregado Correctamente!",
+            showConfirmButton: false,
+            timer: 1500
+        });
+    }
+</script>
