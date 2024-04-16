@@ -61,7 +61,7 @@
         <div class="row">
             <div class="col-lg-6 mt-3">
                 <h2>Ubicación</h2>
-                    <br>
+                    <br>    
                 <div class="container d-flex">
                     
                     <div id="map" style="width: 100%; height: 400px;"></div>   
@@ -120,7 +120,7 @@
                     </div>
                     
                     <div class="col-lg-4 col-md-3 col-4 d-grid">
-                        <button type="button" class="btn btn-outline-success"  onclick="showSweetAlert()">
+                        <button type="button" class="btn btn-outline-success"  onclick="showSweetAlert_Taller()">
                             <i class="bi bi-cart-check"></i> Agregar al carrito
                         </button>
                         
@@ -161,3 +161,16 @@
 
 <!-- Llamar a la función initMap cuando el API de Google Maps esté cargado -->
 <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyALHaUJgSC86kmMnI1vjUIiEc33-DbxvZY&callback=initMap"></script>
+
+{{-- Script para el SweetAlert de AGREGAR PRODUCTO --}}
+<script>
+    function showSweetAlert_Taller() {
+        Swal.fire({
+            position: "center",
+            icon: "success",
+            title: "Taller Agregado Correctamente!",
+            showConfirmButton: false,
+            timer: 1500
+        });
+    }
+</script>
